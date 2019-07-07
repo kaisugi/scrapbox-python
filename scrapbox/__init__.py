@@ -1,4 +1,4 @@
-__version__ = '0.5.0'
+__version__ = '0.5.1'
 __all__ = ['Client']
 
 USER_AGENT = 'Scrapbox Python API Wrapper %s' % __version__
