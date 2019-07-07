@@ -23,7 +23,7 @@ project = client.get("/pages/help-jp/")
 
 ## Examples
 
-### Get all page data in JSON format
+### Get all the data of a project in JSON format
 
 ```python
 import json
@@ -37,7 +37,7 @@ print(json.dumps(project, ensure_ascii=False, indent=2))
 {
   "projectName": "help-jp",
   "skip": 0,
-  "limit": 100,
+  "limit": 10,
   "count": 73,
   "pages": [
     {
