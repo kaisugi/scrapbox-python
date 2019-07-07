@@ -39,5 +39,4 @@ class PagesTestCase(TestCase):
         with open("dump_image.jpg", "wb") as f:
             f.write(icon)
 
-        ok_(filecmp.cmp("dump_image.jpg", "test_image.jpg"))
-        os.remove("dump_image.jpg")
+        ok_(filecmp.cmp("./dump_image.jpg", "./test_image.jpg"))
